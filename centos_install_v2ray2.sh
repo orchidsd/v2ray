@@ -467,7 +467,7 @@ server {
 }
 EOF
 
-    systemctl start nginx
+    startNginx
     systemctl start v2ray
     
     sleep 3
